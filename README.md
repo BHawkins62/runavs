@@ -6,6 +6,7 @@ To run this script:
 
 - Set environment variable "SLP" to your one password 
 - Install the Julia Language:   https://julialang.org/downloads/
+- Make sure you have the secondlifeviewer and radegast viewer installed
 - Run  the script in a terminal as follows:  *julia runavs.jl*  
 
 ![](menu.JPG)
