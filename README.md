@@ -8,7 +8,7 @@ To run this script:
 - Install the Julia Language:   https://julialang.org/downloads/
 - Run  the script in a terminal as follows:  *julia runavs.jl*  
 
-![](C:\Users\Bruce\JuliaProjects\runavs\menu.JPG)
+![](menu.JPG)
 
 The script also has a command-line switch if you need to delay the launch of your avatars.   It takes a 5 digit code for hour:minute based upon 24 hour clock of location.
 
