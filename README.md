@@ -25,10 +25,11 @@ Requirements:
 
 To run this program:
 
-- Open a terminal and change to the directory where ***runavs.jl*** is installed
-- Run the program by typing  ***julia runavs.jl*** 
+- Set environment variable "SLP" to your one password 
+- Install the Julia Language:   https://julialang.org/downloads/
+- Run  the script in a terminal as follows:  *julia runavs.jl*  
 
-![](C:\Users\Bruce\JuliaProjects\runavs\menu.JPG)
+![](menu.JPG)
 
 The script also has a command-line switch if you need to delay the launch of your avatars.   It takes a 5 digit code for hour:minute based upon the 24 hour clock of your location.
 
