@@ -2,3 +2,6 @@ name = "runavs"
 uuid = "dff679a2-0b0c-46a0-a159-0bc555e4acfa"
 authors = ["BHawkins62 <bruce@kinhawkins.com>"]
 version = "0.1.0"
+
+[deps]
+ConfParser = "88353bc9-fd38-507d-a820-d3b43837d6b9"
