@@ -44,8 +44,10 @@ function run_avatars_sl(ch, avs, e_var)
             lname = "Resident"
         end        
         command = `SecondLifeViewer.exe --login $fname $lname $password`
-        println("\n$command")  # possible temp
+        print_command = `SecondLifeViewer.exe --login $fname $lname xxxxxxxx`
+        println("\n$print_command")
         run(command, wait=false)
+
     end
     println("\nWARNING: Do not exit this program prematurely, as exiting will also exit all avatars")
     cd(home_dir)
@@ -71,7 +73,8 @@ function run_avatars_rad(ch, avs, e_var)
             avatar = avatar * " Resident"
         end
         command = `Radegast -u $avatar -p $password -a -g agni -l home --no-sound`
-        println("\n$command")
+        print_command = `Radegast -u $avatar -p xxxxxxxx -a -g agni -l home --no-sound`
+        println("\n$print_command")
         run(command, wait=false)
     end
     println("\nWARNING: Do not exit this program prematurely, as exiting will also exit all avatars")
