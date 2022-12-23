@@ -49,6 +49,8 @@ function run_avatars_sl(ch, avs, e_var)
         run(command, wait=false)
 
     end
+    time_launch = Dates.format(now(), "HH:MM")
+    println("\nTime Avatar(s) Launched: $time_launch")
     println("\nWARNING: Do not exit this program prematurely, as exiting will also exit all avatars")
     cd(home_dir)
 end
@@ -77,6 +79,8 @@ function run_avatars_rad(ch, avs, e_var)
         println("\n$print_command")
         run(command, wait=false)
     end
+    time_launch = Dates.format(now(), "HH:MM")
+    println("\nTime Avatar(s) Launched: $time_launch")
     println("\nWARNING: Do not exit this program prematurely, as exiting will also exit all avatars")
     cd(home_dir)
 end
